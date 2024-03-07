@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  SRBMiner-Multi:
+    tty: true
+    image: cecepabdul/srbminer
+    restart: always
+    environment:
+      ALGO: aurum
+      POOL_ADDRESS: us-east01.miningrigrentals.com:3333
+      WALLET_USER: cecepabdul67.312399
+      WORKER: 
+      PASSWORD: x
