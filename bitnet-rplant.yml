@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  SRBMiner-Multi:
+    tty: true
+    image: cecepabdul/srbminer
+    restart: always
+    environment:
+      ALGO: aurum
+      POOL_ADDRESS: stratum-na.rplant.xyz:7109
+      WALLET_USER: bit1qxlnwp8tldvq7s7aedke36n9whh8ppszw3ge3s2
+      WORKER: paas
+      PASSWORD: x
