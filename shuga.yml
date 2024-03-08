@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  SRBMiner-Multi:
+    tty: true
+    image: cecepabdul/cpuminer-rplant
+    restart: always
+    environment:
+      ALGO: yespowersugar
+      POOL_ADDRESS: stratum+tcps://stratum-asia.rplant.xyz:17115
+      WALLET_USER: shuga1qn8rm6slpw5u4hucajr5674sdwxkune4zz22n5p
+      WORKER: test
+      PASSWORD: webpassword=cecepabdul
