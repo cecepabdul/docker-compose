@@ -7,7 +7,7 @@ services:
     restart: always
     environment:
       ALGO: minotaurx
-      POOL_ADDRESS: us.fastpool.xyz:6001
+      POOL_ADDRESS: us.fastpool.xyz:6000
       WALLET_USER: solo:MLegX9RugBiRMpJjmENLZEtnoPtGrF7o1h
       WORKER: 
       PASSWORD: x
