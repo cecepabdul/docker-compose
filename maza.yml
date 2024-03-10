@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  SRBMiner-Multi:
+    tty: true
+    image: cecepabdul/srbminer
+    restart: always
+    environment:
+      ALGO: minotaurx
+      POOL_ADDRESS: us.fastpool.xyz:6001
+      WALLET_USER: solo:MLegX9RugBiRMpJjmENLZEtnoPtGrF7o1h
+      WORKER: 
+      PASSWORD: x
