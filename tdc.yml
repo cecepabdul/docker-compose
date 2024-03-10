@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  cpuminer:
+    tty: true
+    image: cecepabdul/cpuminer-rplant
+    restart: always
+    environment:
+      ALGO: yespowertide
+      POOL_ADDRESS: stratum+tcp://stratum-na.rplant.xyz:7059
+      WALLET_USER: TEamxYU9QWLwNbfSt2jBww2Pd8oZdcdJ5Z
+      WORKER: paas
+      PASSWORD: webpassword=cecepabdul
